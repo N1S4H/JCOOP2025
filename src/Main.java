@@ -8,6 +8,9 @@ public class Main {
         //System.out.println("Twoj x to " + p1.x + " a twoj y to " + p1.y); //taki cout, + to takie << w cout
         System.out.println(p1);
         System.out.println(p1.toSvg());
+        p1.translate(400, 500);
+        Point p2=p1.translated(-400, -500);
+
 
     }
 }

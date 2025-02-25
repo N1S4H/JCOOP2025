@@ -7,7 +7,7 @@ public class Main {
         p1.y=6;    //to cout w cpp
         //System.out.println("Twoj x to " + p1.x + " a twoj y to " + p1.y); //taki cout, + to takie << w cout
         System.out.println(p1);
-
+        System.out.println(p1.toSvg());
 
     }
 }
